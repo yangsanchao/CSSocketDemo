@@ -25,13 +25,26 @@
 - (IBAction)connection {
     if ([self connection:self.hostText.text port:self.portText.text.intValue]) {
         self.recvLabel.text = @"connection success";
+        NSLog( @"connection success");
     } else {
         self.recvLabel.text = @"connection error";
+        NSLog( @"connection error");
     }
 }
 
 - (IBAction)send {
+    if (self.messageText.text.length <= 0) {
+        [self reminder];
+        return;
+    }
     self.recvLabel.text = [self sendAndRecv:self.messageText.text];
+}
+
+- (void)reminder {
+    UIAlertController *alerVC = [UIAlertController alertControllerWithTitle:@"提示" message:@"send内容不能为空" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+    [alerVC addAction:action];
+    [self presentViewController:alerVC animated:YES completion:nil];
 }
 
 - (void)viewDidLoad {
@@ -126,4 +139,5 @@
 - (void)disConnection {
     close(self.clientSocket);
 }
+
 @end
