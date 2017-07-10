@@ -236,12 +236,13 @@ Socket通信就是一种确定了端口号的TCP/IP通信，或者说Socket通�
 写好的已经放在了我的[github](https://github.com/yscGit/CSSocketDemo)；
 此时没有写服务端，怎么测试？
 可利用：nc -lk 端口号:始终监听本地计算机此端口的数据。
+
 eg：nc -lk 6666；
-操作步骤gif
-1、监听 6666端口
-2、connettion；
-3、发送`socket`；服务器接收到`socket`；
-4、服务端send ：hello socket；
+- 操作步骤gif
+1. 监听 6666端口
+2. connettion；
+3. 发送`socket`；服务器接收到`socket`；
+4. 服务端send ：hello socket；
 
 
 ![操作步骤.gif](http://upload-images.jianshu.io/upload_images/1156719-34b7d082f0b3617c.gif?imageMogr2/auto-orient/strip)
