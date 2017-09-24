@@ -260,8 +260,12 @@ socket服务端下次再谈！
 
 ---
 
-[参考资料1](http://baike.baidu.com/link?url=KXln_rVFMKF5qTQzAG-e9GZVUzzldEsnptZvwyaTAZuwln46D3jWoZBNkdY-tRFRUcoYZRWYLwZQtLSTi8Tm5a)
-[参考资料2](http://tieba.baidu.com/p/2670086104)
-[参考资料3](http://www.cnblogs.com/skynet/archive/2010/12/12/1903949.html)
-[参考资料4](http://goodcandle.cnblogs.com/archive/2005/12/10/294652.aspx)
-[参考资料5](http://baike.baidu.com/link?url=3DHEDsszcKuO00VEKmnRK79wDpxnWfxsUHWCd4199p3yG8MMgiCOt1viuh8Geo4FM2Mhek6pr02gpDeY_S3peBgf6UcS_1voUw-gwg6BZeO)
+[三次握手](http://baike.baidu.com/link?url=KXln_rVFMKF5qTQzAG-e9GZVUzzldEsnptZvwyaTAZuwln46D3jWoZBNkdY-tRFRUcoYZRWYLwZQtLSTi8Tm5a)
+
+[UNIX 传奇](http://tieba.baidu.com/p/2670086104)
+
+[Linux Socket编程（不限Linux）](http://www.cnblogs.com/skynet/archive/2010/12/12/1903949.html)
+
+[揭开Socket编程的面纱](http://goodcandle.cnblogs.com/archive/2005/12/10/294652.aspx)
+
+[socket](http://baike.baidu.com/link?url=3DHEDsszcKuO00VEKmnRK79wDpxnWfxsUHWCd4199p3yG8MMgiCOt1viuh8Geo4FM2Mhek6pr02gpDeY_S3peBgf6UcS_1voUw-gwg6BZeO)
